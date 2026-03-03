@@ -4,10 +4,10 @@ const ContactSection = () => (
   <section id="contact" className="px-6 py-20 md:py-28">
     <div className="mx-auto max-w-2xl text-center">
       <h2 className="mb-6 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
-        Book a Confidential Strategy Call
+        Book a Confidential Call
       </h2>
       <p className="mb-8 text-sm leading-relaxed text-muted-foreground md:text-base">
-        If you're actively looking to acquire a UK business, we can embed as your fractional buy-side execution team — running the process while you run your business.
+        If you are actively acquiring UK businesses, we can operate as your fractional execution team — running the process while you run your business.
       </p>
       <Button
         size="lg"
