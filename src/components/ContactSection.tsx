@@ -7,7 +7,7 @@ const ContactSection = () => (
         Book a Confidential Strategy Call
       </h2>
       <p className="mb-8 text-sm leading-relaxed text-muted-foreground md:text-base">
-        If you are actively looking to acquire a UK business, we can operate as your fractional buy-side execution team.
+        If you're actively looking to acquire a UK business, we can embed as your fractional buy-side execution team — running the process while you run your business.
       </p>
       <Button
         size="lg"

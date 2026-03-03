@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => (
   <section className="relative bg-primary px-6 py-24 md:py-36">
     <div className="mx-auto max-w-3xl text-center">
-      <h1 className="mb-6 text-4xl font-semibold leading-tight tracking-tight text-primary-foreground md:text-5xl lg:text-6xl">
-        The Acquisition Team
-      </h1>
-      <p className="mb-4 text-lg font-light text-primary-foreground/80 md:text-xl">
-        Fractional Buy-Side M&A Execution for UK Business Buyers
+      <p className="mb-4 text-sm font-medium uppercase tracking-widest text-primary-foreground/50">
+        Your Fractional Acquisition Team
       </p>
+      <h1 className="mb-6 text-3xl font-semibold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
+        We help busy business owners find and acquire profitable bolt-on businesses.
+      </h1>
       <p className="mx-auto mb-10 max-w-2xl text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We source, screen, model, and execute acquisitions for serious SME buyers — with disciplined process from origination through to completion.
+        We embed into your back office as a virtual buy-side team — running structured deal sourcing, screening, modelling, and execution so you can focus on running your business.
       </p>
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Button

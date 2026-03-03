@@ -1,9 +1,10 @@
-import { Briefcase, Target, Settings } from "lucide-react";
+import { Briefcase, Target, Settings, Phone } from "lucide-react";
 
 const credentials = [
-  { icon: Briefcase, text: "UK SME acquisition focus" },
+  { icon: Briefcase, text: "Buy-and-build execution background" },
+  { icon: Phone, text: "200+ vendor calls completed" },
   { icon: Target, text: "Execution-first, not brokerage" },
-  { icon: Settings, text: "Process-driven and buyer-aligned" },
+  { icon: Settings, text: "Institutional modelling discipline" },
 ];
 
 const TeamSection = () => (
@@ -13,18 +14,13 @@ const TeamSection = () => (
         Who We Are
       </h2>
       <p className="mx-auto mb-6 max-w-2xl text-sm leading-relaxed text-muted-foreground md:text-base">
-        The Acquisition Team is built by practitioners with direct experience in UK small-cap acquisitions, modelling, diligence execution, and transaction support.
+        The Acquisition Team is built by practitioners with direct experience in UK small-cap acquisitions — sourcing, vendor engagement, financial modelling, and transaction execution.
       </p>
       <p className="mx-auto mb-10 max-w-2xl text-sm leading-relaxed text-muted-foreground md:text-base">
-        We bring a structured, institutional approach typically seen in private equity and corporate finance — adapted for serious SME buyers.
+        We bring buy-and-build operator experience and institutional process discipline to serious SME acquirers.
       </p>
 
-      {/* Headshot placeholder */}
-      <div className="mx-auto mb-10 flex h-32 w-32 items-center justify-center rounded-full bg-secondary">
-        <span className="text-xs text-muted-foreground">Photo</span>
-      </div>
-
-      <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center sm:gap-8">
+      <div className="flex flex-col items-center gap-3 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-8">
         {credentials.map((c) => (
           <div key={c.text} className="flex items-center gap-2">
             <c.icon className="h-4 w-4 text-accent" />
