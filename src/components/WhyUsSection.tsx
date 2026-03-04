@@ -24,8 +24,11 @@ const WhyUsSection = () => (
       <h2 className="mb-8 text-center text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
         Why Buyers Engage Us
       </h2>
+      <p className="mx-auto mb-4 max-w-2xl text-center text-sm leading-relaxed text-muted-foreground md:text-base">
+        Most acquisitions fail due to poor deal selection and lack of execution discipline.
+      </p>
       <p className="mx-auto mb-14 max-w-2xl text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        Most business owners have acquisition intent but no execution infrastructure. We provide the structured process, modelling discipline, and weekly cadence that converts intent into completed transactions.
+        We provide the structured pipeline, financial modelling rigour and weekly deal cadence required to convert acquisition intent into completed transactions.
       </p>
 
       <div className="grid gap-8 md:grid-cols-3">
