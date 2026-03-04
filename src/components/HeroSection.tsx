@@ -3,14 +3,17 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => (
   <section className="relative bg-primary px-6 py-24 md:py-36">
     <div className="mx-auto max-w-3xl text-center">
-      <p className="mb-6 text-xs font-semibold uppercase tracking-[0.25em] text-primary-foreground/40">
+      <p className="mb-4 text-xs font-semibold uppercase tracking-[0.25em] text-primary-foreground/40">
         Private Capital. Disciplined Execution.
       </p>
+      <p className="mb-8 text-sm text-primary-foreground/50">
+        Most companies want to grow through acquisition but lack an internal M&amp;A capability.
+      </p>
       <h1 className="mb-6 text-3xl font-semibold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
-        Your fractional acquisition team for sourcing, structuring and executing UK SME acquisitions.
+        An outsourced M&amp;A function for sourcing, structuring and executing UK SME acquisitions.
       </h1>
       <p className="mx-auto mb-10 max-w-2xl text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We build and run a disciplined acquisition pipeline inside your business — sourcing targets, screening opportunities, modelling deals and supporting execution through completion.
+        We originate targets, screen opportunities, build financial models and manage acquisition execution through to completion.
       </p>
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Button
@@ -28,7 +31,7 @@ const HeroSection = () => (
         </a>
       </div>
       <p className="mt-8 text-xs tracking-wide text-primary-foreground/30">
-        200+ vendor calls &nbsp;|&nbsp; Institutional modelling discipline &nbsp;|&nbsp; UK SME acquisitions
+        200+ vendor calls &nbsp;|&nbsp; Clean EBITDA modelling &nbsp;|&nbsp; UK SME acquisitions
       </p>
     </div>
   </section>
