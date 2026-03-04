@@ -7,18 +7,31 @@ import WhyUsSection from "@/components/WhyUsSection";
 import TeamSection from "@/components/TeamSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ScrollReveal from "@/components/ScrollReveal";
 
 const Index = () => (
   <div className="min-h-screen">
     <Navbar />
     <main>
       <HeroSection />
-      <WhoWeWorkWithSection />
-      <WhatWeDoSection />
-      <ProcessSection />
-      <WhyUsSection />
-      <TeamSection />
-      <ContactSection />
+      <ScrollReveal>
+        <WhoWeWorkWithSection />
+      </ScrollReveal>
+      <ScrollReveal>
+        <WhatWeDoSection />
+      </ScrollReveal>
+      <ScrollReveal>
+        <ProcessSection />
+      </ScrollReveal>
+      <ScrollReveal>
+        <WhyUsSection />
+      </ScrollReveal>
+      <ScrollReveal>
+        <TeamSection />
+      </ScrollReveal>
+      <ScrollReveal>
+        <ContactSection />
+      </ScrollReveal>
     </main>
     <Footer />
   </div>
