@@ -6,8 +6,8 @@ const points = [
 ];
 
 const WhoWeWorkWithSection = () => (
-  <section className="bg-card px-6 py-24 md:py-32">
-    <div className="mx-auto max-w-2xl text-center">
+  <section className="bg-card px-6 py-16 md:py-24">
+    <div className="mx-auto max-w-5xl text-center">
       <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Who We Work With
       </h2>

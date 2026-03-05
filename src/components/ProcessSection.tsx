@@ -7,12 +7,12 @@ const steps = [
 ];
 
 const ProcessSection = () => (
-  <section id="process" className="bg-card px-6 py-24 md:py-32">
+  <section id="process" className="bg-card px-6 py-16 md:py-24">
     <div className="mx-auto max-w-5xl">
       <h2 className="mb-6 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Our Deal Execution Process
       </h2>
-      <p className="mx-auto mb-20 max-w-xl text-center text-sm leading-relaxed text-muted-foreground md:text-base">
+      <p className="mx-auto mb-14 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
         A structured five-stage process from origination through to completion.
       </p>
 
@@ -21,7 +21,7 @@ const ProcessSection = () => (
         {steps.map((step, i) => (
           <div key={step.title} className="flex flex-1 flex-col items-center text-center">
             <div className="flex items-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-primary bg-background text-base font-bold text-primary">
+             <div className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-primary bg-background text-lg font-bold text-primary">
                 {i + 1}
               </div>
               {i < steps.length - 1 && (
@@ -39,7 +39,7 @@ const ProcessSection = () => (
         {steps.map((step, i) => (
           <div key={step.title} className="flex items-start gap-5">
             <div className="flex flex-col items-center">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-primary bg-background text-base font-bold text-primary">
+             <div className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-primary bg-background text-lg font-bold text-primary">
                 {i + 1}
               </div>
               {i < steps.length - 1 && <div className="mt-2 h-10 w-px bg-border" />}

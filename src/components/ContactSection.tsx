@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 
 const ContactSection = () => (
-  <section id="contact" className="bg-primary px-6 py-24 md:py-32">
-    <div className="mx-auto max-w-2xl text-center">
+  <section id="contact" className="bg-primary px-6 py-16 md:py-24">
+    <div className="mx-auto max-w-5xl text-center">
       <h2 className="mb-6 text-3xl font-bold tracking-tight text-primary-foreground md:text-4xl">
         Book a Confidential Call
       </h2>
