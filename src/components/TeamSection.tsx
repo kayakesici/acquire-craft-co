@@ -1,5 +1,5 @@
 const TeamSection = () => (
-  <section className="bg-card px-6 py-16 md:py-24">
+  <section className="bg-card px-6 py-12 md:py-16">
     <div className="mx-auto max-w-5xl text-center">
       <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Who We Are

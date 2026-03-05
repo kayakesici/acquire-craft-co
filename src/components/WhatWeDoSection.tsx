@@ -1,5 +1,5 @@
 const WhatWeDoSection = () => (
-  <section id="what-we-do" className="bg-muted px-6 py-16 md:py-24">
+  <section id="what-we-do" className="bg-muted px-6 py-12 md:py-16">
     <div className="mx-auto max-w-5xl">
       <h2 className="mb-6 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         How We Operate
