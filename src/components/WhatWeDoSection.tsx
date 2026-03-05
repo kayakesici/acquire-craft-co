@@ -1,10 +1,10 @@
 const WhatWeDoSection = () => (
-  <section id="what-we-do" className="bg-muted px-6 py-24 md:py-32">
-    <div className="mx-auto max-w-3xl">
+  <section id="what-we-do" className="bg-muted px-6 py-16 md:py-24">
+    <div className="mx-auto max-w-5xl">
       <h2 className="mb-6 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         How We Operate
       </h2>
-      <p className="mx-auto mb-16 max-w-xl text-center text-sm leading-relaxed text-muted-foreground md:text-base">
+      <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
         We run a disciplined weekly cadence inside your back office — from target identification through to deal completion.
       </p>
 
