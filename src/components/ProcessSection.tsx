@@ -7,7 +7,7 @@ const steps = [
 ];
 
 const ProcessSection = () => (
-  <section id="process" className="bg-card px-6 py-16 md:py-24">
+  <section id="process" className="bg-card px-6 py-12 md:py-16">
     <div className="mx-auto max-w-5xl">
       <h2 className="mb-6 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Our Deal Execution Process
