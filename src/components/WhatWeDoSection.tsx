@@ -17,10 +17,10 @@ const WhatWeDoSection = () => (
           </h3>
           <p className="mb-5 text-sm font-medium text-accent">£2,000 per month — 6-month minimum</p>
           <p className="mb-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-            Define acquisition criteria and build a targeted pipeline of potential sellers. Source opportunities through broker networks, direct outreach and inbound deal flow.
+            Define acquisition criteria and build a systematic deal origination pipeline. Source opportunities through broker networks, direct outreach and proprietary inbound channels.
           </p>
           <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
-            Screen opportunities, filter low-quality deals and coordinate initial vendor conversations. Operate a disciplined weekly cadence to maintain deal momentum.
+            Screen and triage opportunities with institutional discipline, filter low-quality flow, and coordinate initial vendor engagement within a structured weekly cadence.
           </p>
         </div>
 
