@@ -31,7 +31,7 @@ const WhatWeDoSection = () => (
           <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
             Assess the Opportunities
           </h3>
-          <p className="mb-4 text-sm font-medium text-accent">Analyse the Deal</p>
+          <p className="mb-4 text-sm font-medium text-accent">Analyse the deals</p>
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li>• Financial modelling</li>
             <li>• Earnings adjustments</li>
