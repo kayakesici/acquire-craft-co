@@ -28,7 +28,7 @@ const HeroSection = () => (
         </a>
       </div>
       <p className="mt-8 text-xs tracking-wide text-primary-foreground/30">
-        200+ vendor calls &nbsp;|&nbsp; Clean EBITDA modelling &nbsp;|&nbsp; UK SME acquisitions
+        Deal origination &nbsp;·&nbsp; Financial underwriting &nbsp;·&nbsp; Transaction execution
       </p>
     </div>
   </section>
