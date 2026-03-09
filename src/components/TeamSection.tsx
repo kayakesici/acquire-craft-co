@@ -5,13 +5,13 @@ const TeamSection = () => (
         Who We Are
       </h2>
       <p className="mx-auto mb-4 max-w-[680px] text-sm leading-relaxed text-muted-foreground md:text-base">
-        Built by people who have done this themselves — with hands-on buy-and-build experience across UK small-cap acquisitions.
+        Built by people who have done this themselves, with hands-on buy-and-build experience across UK small-cap acquisitions.
       </p>
       <p className="mx-auto mb-4 max-w-[680px] text-sm leading-relaxed text-muted-foreground md:text-base">
         200+ vendor conversations completed. Every opportunity in our pipeline is properly modelled before it reaches you.
       </p>
       <p className="mx-auto max-w-[680px] text-sm leading-relaxed text-muted-foreground md:text-base">
-        We work as part of your business — structured, process-driven and focused on getting deals done.
+        We work as part of your business. Structured, process-driven and focused on getting deals done.
       </p>
     </div>
   </section>

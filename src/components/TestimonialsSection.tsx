@@ -24,7 +24,7 @@ const TestimonialsSection = () => (
         {testimonials.map((t) => (
           <div key={t.author} className="rounded border border-border bg-card p-6">
             <p className="mb-4 text-sm italic leading-relaxed text-muted-foreground">"{t.quote}"</p>
-            <p className="text-xs font-medium text-foreground">— {t.author}</p>
+            <p className="text-xs font-medium text-foreground">{t.author}</p>
           </div>
         ))}
       </div>

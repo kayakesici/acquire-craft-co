@@ -4,7 +4,7 @@ const pillars = [
   {
     icon: Clock,
     title: "Busy Business Owners",
-    desc: "Business owners want to grow through acquisition but are too busy running their company to find the right deals.",
+    desc: "Many business owners want to grow through acquisition, but running the business leaves little time to consistently find and review the right opportunities.",
   },
   {
     icon: Target,

@@ -5,7 +5,7 @@ const WhatWeDoSection = () => (
         How We Work With You
       </h2>
       <p className="mx-auto mb-10 max-w-[680px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        We embed into your business as your acquisition team — sourcing deals, analysing opportunities and managing transactions week by week.
+        We embed into your business as your acquisition team, sourcing deals, analysing opportunities and managing transactions week by week.
       </p>
 
       <div className="grid gap-8 md:grid-cols-3">
