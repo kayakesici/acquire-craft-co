@@ -16,38 +16,28 @@ const ProcessSection = () => (
         A structured five-stage process from origination through to completion.
       </p>
 
-      {/* Desktop horizontal */}
-      <div className="hidden md:flex md:items-start md:justify-between md:gap-6">
+      {/* Desktop */}
+      <div className="hidden md:grid md:grid-cols-5 md:gap-6">
         {steps.map((step, i) => (
-          <div key={step.title} className="flex flex-1 flex-col items-center text-center">
-            <div className="flex items-center">
-             <div className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-primary bg-card text-lg font-bold text-primary">
-                {i + 1}
-              </div>
-              {i < steps.length - 1 && (
-                <div className="h-px w-full min-w-[48px] bg-border" />
-              )}
+          <div key={step.title} className="flex flex-col items-center text-center">
+            <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-primary bg-card text-xl font-bold text-primary">
+              {i + 1}
             </div>
             <h3 className="mt-5 text-sm font-semibold text-foreground">{step.title}</h3>
-            <p className="mt-2 max-w-[180px] text-xs leading-relaxed text-muted-foreground">{step.desc}</p>
+            <p className="mt-2 text-xs leading-relaxed text-muted-foreground">{step.desc}</p>
           </div>
         ))}
       </div>
 
-      {/* Mobile vertical */}
+      {/* Mobile */}
       <div className="flex flex-col gap-10 md:hidden">
         {steps.map((step, i) => (
-          <div key={step.title} className="flex items-start gap-5">
-            <div className="flex flex-col items-center">
-             <div className="flex h-14 w-14 items-center justify-center rounded-full border-2 border-primary bg-card text-lg font-bold text-primary">
-                {i + 1}
-              </div>
-              {i < steps.length - 1 && <div className="mt-2 h-10 w-px bg-border" />}
+          <div key={step.title} className="flex flex-col items-center text-center">
+            <div className="flex h-16 w-16 items-center justify-center rounded-full border-2 border-primary bg-card text-xl font-bold text-primary">
+              {i + 1}
             </div>
-            <div className="pt-2.5">
-              <h3 className="text-sm font-semibold text-foreground">{step.title}</h3>
-              <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">{step.desc}</p>
-            </div>
+            <h3 className="mt-4 text-sm font-semibold text-foreground">{step.title}</h3>
+            <p className="mt-2 max-w-[240px] text-xs leading-relaxed text-muted-foreground">{step.desc}</p>
           </div>
         ))}
       </div>
