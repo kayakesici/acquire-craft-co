@@ -4,7 +4,7 @@ const HeroSection = () => (
   <section className="relative bg-primary px-6 py-16 md:py-24">
     <div className="mx-auto max-w-3xl text-center">
       <p className="mb-5 text-xs font-semibold uppercase tracking-[0.25em] text-primary-foreground/40">
-        Private Capital. Disciplined Execution.
+        Buy-Side M&amp;A Advisory &nbsp;·&nbsp; UK SME Acquisitions
       </p>
       <h1 className="mb-6 text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
         An outsourced M&amp;A function for sourcing, structuring and executing UK SME acquisitions.
