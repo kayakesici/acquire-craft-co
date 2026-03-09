@@ -15,7 +15,7 @@ const WhatWeDoSection = () => (
           <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
             Build Your Pipeline
           </h3>
-          <p className="mb-4 text-sm font-medium text-accent">£2,000/month — 6-month minimum</p>
+          <p className="mb-4 text-sm font-medium text-accent">Regular Deal Flow</p>
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li>• Define what you want to buy</li>
             <li>• Build sourcing channels</li>
