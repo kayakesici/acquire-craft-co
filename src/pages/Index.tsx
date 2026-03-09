@@ -35,6 +35,9 @@ const Index = () => (
         <WhyUsSection />
       </ScrollReveal>
       <ScrollReveal>
+        <DealAnalysisSection />
+      </ScrollReveal>
+      <ScrollReveal>
         <InsightsSection />
       </ScrollReveal>
       <ScrollReveal>
