@@ -19,9 +19,9 @@ const pillars = [
 ];
 
 const WhyUsSection = () => (
-  <section id="why-us" className="bg-muted px-6 py-12 md:py-16">
-    <div className="mx-auto max-w-5xl">
-      <h2 className="mb-6 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+  <section id="why-us" className="bg-card px-6 py-16 md:py-20">
+    <div className="mx-auto max-w-6xl">
+      <h2 className="mb-3 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Why Buyers Engage Us
       </h2>
       <p className="mx-auto mb-4 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
@@ -31,9 +31,9 @@ const WhyUsSection = () => (
         We provide the structured pipeline, financial modelling rigour and weekly deal cadence required to convert acquisition intent into completed transactions.
       </p>
 
-      <div className="grid gap-8 md:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-3">
         {pillars.map((p) => (
-          <div key={p.title} className="rounded-md border border-border bg-card p-8 shadow-sm md:p-10">
+          <div key={p.title} className="rounded-md border border-border bg-background p-8 shadow-sm md:p-10">
             <p.icon className="mb-5 h-8 w-8 text-accent" />
             <h3 className="mb-3 font-['Playfair_Display',Georgia,serif] text-lg font-semibold text-card-foreground">
               {p.title}

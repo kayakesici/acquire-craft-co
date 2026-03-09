@@ -13,20 +13,20 @@ const capabilities = [
   },
   {
     icon: BarChart3,
-    title: "Financial Underwriting & Valuation",
+    title: "Financial Evaluation & Deal Analysis",
     desc: "Institutional-grade financial analysis including normalised EBITDA, valuation scenarios and debt service modelling.",
   },
   {
     icon: FileText,
-    title: "Transaction Structuring & Negotiation",
+    title: "Transaction Structuring & Execution",
     desc: "Deal structuring, Heads of Terms preparation and negotiation support through to signed SPA.",
   },
 ];
 
 const CapabilitiesSection = () => (
-  <section id="capabilities" className="bg-card px-6 py-12 md:py-16">
-    <div className="mx-auto max-w-5xl">
-      <h2 className="mb-4 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+  <section id="capabilities" className="bg-card px-6 py-16 md:py-20">
+    <div className="mx-auto max-w-6xl">
+      <h2 className="mb-3 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Our Capabilities
       </h2>
       <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
@@ -35,7 +35,7 @@ const CapabilitiesSection = () => (
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {capabilities.map((c) => (
-          <div key={c.title} className="rounded-md border border-border bg-background p-6 shadow-sm">
+          <div key={c.title} className="rounded-md border border-border bg-background p-6 shadow-sm transition-shadow hover:shadow-md">
             <c.icon className="mb-4 h-7 w-7 text-accent" />
             <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-base font-semibold text-foreground">
               {c.title}

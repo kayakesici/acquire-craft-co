@@ -1,12 +1,12 @@
 import { Button } from "@/components/ui/button";
 
 const ContactSection = () => (
-  <section id="contact" className="bg-primary px-6 py-12 md:py-16">
-    <div className="mx-auto max-w-5xl text-center">
+  <section id="contact" className="bg-primary px-6 py-16 md:py-20">
+    <div className="mx-auto max-w-6xl text-center">
       <h2 className="mb-6 text-3xl font-bold tracking-tight text-primary-foreground md:text-4xl">
         Book a Confidential Call
       </h2>
-      <p className="mx-auto mb-10 max-w-xl text-sm leading-relaxed text-primary-foreground/60 md:text-base">
+      <p className="mx-auto mb-10 max-w-[720px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
         If you are actively acquiring UK businesses, we can operate as your buy-side execution team — running the process while you run your business.
       </p>
       <Button
