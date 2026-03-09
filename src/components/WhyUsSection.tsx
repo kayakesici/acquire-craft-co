@@ -4,17 +4,17 @@ const pillars = [
   {
     icon: Target,
     title: "Disciplined Deal Selection",
-    desc: "Fast-kill screening eliminates low-quality flow. Every opportunity in your pipeline has passed a structured filter.",
+    desc: "We filter out weak opportunities so you only spend time on deals worth pursuing.",
   },
   {
     icon: BarChart3,
-    title: "Financial Modelling Discipline",
-    desc: "Floor, base, and max-case financials with normalised EBITDA and downside protection built in.",
+    title: "Clear Financial Analysis",
+    desc: "Proper financial modelling before you commit — with base, floor and upside scenarios.",
   },
   {
     icon: Shield,
     title: "Embedded Execution",
-    desc: "We operate inside your business as an outsourced acquisition function — not an external advisor.",
+    desc: "We work as part of your team, not an external adviser producing reports.",
   },
 ];
 
@@ -22,13 +22,10 @@ const WhyUsSection = () => (
   <section id="why-us" className="bg-card px-6 py-14 md:py-16">
     <div className="mx-auto max-w-6xl">
       <h2 className="mb-3 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-        Why Buyers Engage Us
+        Why Buyers Work With Us
       </h2>
-      <p className="mx-auto mb-4 max-w-[680px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        Most acquisitions fail due to poor deal selection and lack of execution discipline.
-      </p>
       <p className="mx-auto mb-10 max-w-[680px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        We provide the sourcing, screening, financial modelling and deal analysis required to convert acquisition intent into completed transactions.
+        Most acquisitions fail because of poor deal selection or lack of process. We give you the sourcing, analysis and execution support to get deals done properly.
       </p>
 
       <div className="grid gap-8 md:grid-cols-3">

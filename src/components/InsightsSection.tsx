@@ -3,15 +3,15 @@ import { ArrowRight } from "lucide-react";
 const articles = [
   {
     title: "How to Evaluate a Small Business Acquisition",
-    summary: "A framework for normalising earnings, stress-testing assumptions and building defensible valuations in UK SME transactions.",
+    summary: "A practical framework for testing earnings, challenging assumptions and arriving at a defensible valuation.",
   },
   {
     title: "Understanding Vendor Financing in SME Deals",
-    summary: "When and how to structure deferred consideration, vendor loans and earn-outs to bridge valuation gaps.",
+    summary: "When and how to use deferred payments, vendor loans and earn-outs to bridge a valuation gap.",
   },
   {
-    title: "The Most Common Structures in UK SME Acquisitions",
-    summary: "An overview of share purchases, asset deals, MBOs and the key commercial drivers behind each structure.",
+    title: "Common Deal Structures in UK SME Acquisitions",
+    summary: "Share purchases, asset deals, MBOs — and the commercial reasons behind each structure.",
   },
 ];
 
@@ -22,7 +22,7 @@ const InsightsSection = () => (
         Market Perspectives
       </h2>
       <p className="mx-auto mb-10 max-w-[680px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        Insights from the front line of UK SME acquisition execution.
+        Practical insights from the front line of UK SME acquisitions.
       </p>
 
       <div className="grid gap-8 md:grid-cols-3">

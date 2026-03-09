@@ -13,7 +13,7 @@ const MarketFocusSection = () => (
         Our Market Focus
       </h2>
       <p className="mx-auto mb-10 max-w-[680px] text-center text-sm leading-[1.6] text-muted-foreground md:text-base">
-        We operate exclusively within the UK lower mid-market, targeting acquisitions where disciplined execution creates measurable value.
+        We focus on the UK lower mid-market, where disciplined execution makes the biggest difference.
       </p>
 
       <ul className="mx-auto w-fit max-w-[380px] list-none space-y-3 pl-0">

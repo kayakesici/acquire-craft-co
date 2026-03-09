@@ -5,13 +5,13 @@ const TeamSection = () => (
         Who We Are
       </h2>
       <p className="mx-auto mb-4 max-w-[680px] text-sm leading-relaxed text-muted-foreground md:text-base">
-        Built by practitioners with direct buy-and-build execution experience across UK small-cap acquisitions.
+        Built by people who have done this themselves — with hands-on buy-and-build experience across UK small-cap acquisitions.
       </p>
       <p className="mx-auto mb-4 max-w-[680px] text-sm leading-relaxed text-muted-foreground md:text-base">
-        200+ vendor calls completed. Financial modelling discipline applied to every opportunity in our deal flow.
+        200+ vendor conversations completed. Every opportunity in our pipeline is properly modelled before it reaches you.
       </p>
       <p className="mx-auto max-w-[680px] text-sm leading-relaxed text-muted-foreground md:text-base">
-        We operate as an outsourced acquisition function — structured, process-driven and embedded inside your business.
+        We work as part of your business — structured, process-driven and focused on getting deals done.
       </p>
     </div>
   </section>

@@ -18,8 +18,7 @@ const ContactSection = () => {
           Book a Confidential Call
         </h2>
         <p className="mx-auto mb-6 max-w-[520px] text-sm leading-[1.6] text-muted-foreground md:text-base">
-          If you are actively acquiring UK businesses, we can discuss your
-          acquisition criteria, pipeline and where we may be able to support.
+          If you are actively looking to acquire UK businesses, let's talk about your criteria and how we can help.
         </p>
         <Button
           size="lg"
