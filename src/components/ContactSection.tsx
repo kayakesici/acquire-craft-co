@@ -12,7 +12,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="bg-background px-6 pt-12 pb-16 md:pt-14 md:pb-20">
+    <section id="contact" className="bg-background px-6 pt-8 pb-16 md:pt-10 md:pb-20">
       <div className="mx-auto max-w-[640px] text-center">
         <h2 className="mb-3.5 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
           Book a Confidential Call
@@ -23,7 +23,7 @@ const ContactSection = () => {
         </p>
         <a
           href="mailto:dealflow@acquisitionteam.co.uk"
-          className="inline-block text-[15px] font-medium text-foreground/80 underline underline-offset-4 transition-colors hover:text-foreground"
+          className="inline-block text-sm font-semibold text-foreground/85 underline underline-offset-4 transition-colors hover:text-foreground"
         >
           dealflow@acquisitionteam.co.uk
         </a>
