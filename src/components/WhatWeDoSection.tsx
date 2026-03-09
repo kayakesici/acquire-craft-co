@@ -37,7 +37,7 @@ const WhatWeDoSection = () => (
             <li>• Earnings adjustments</li>
             <li>• Valuation scenarios</li>
             <li>• Risk analysis</li>
-            <li>• Draft Offer Letter</li>
+            <li>• Draft Proposal Letter</li>
           </ul>
         </div>
 
