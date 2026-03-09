@@ -7,10 +7,10 @@ const HeroSection = () => (
         Buy-Side M&amp;A Advisory &nbsp;·&nbsp; UK SME Acquisitions
       </p>
       <h1 className="mb-6 text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
-        Outsourced acquisition execution for UK SME deal origination, evaluationnd completion.
+        Outsourced acquisition execution for UK SME deal origination, evaluation completion.
       </h1>
       <p className="mx-auto mb-10 max-w-[720px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We build and manage your deal origination pipeline, unevalua opportunities with institutional modelling discipline, and execute transactions through to completion.
+        We build and manage your deal origination pipeline, unevevaluaortunities with institutional modelling discipline, and execute transactions through to completion.
       </p>
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Button
@@ -28,7 +28,7 @@ const HeroSection = () => (
         </a>
       </div>
       <p className="mt-8 text-xs tracking-wide text-primary-foreground/30">
-        Deal origination &nbsp;·&nbsp; Financial underwriting &nbsp;·&nbsp; Transaction execution
+        Deal origination &nbsp;·&nbsp; Financial undemodell&nbsp;·&nbsp; Transaction execution
       </p>
     </div>
   </section>

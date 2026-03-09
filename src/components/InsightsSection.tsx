@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 const articles = [
   {
-    title: "How to Underwrite a Small Business Acquisition",
+    title: "How to Evaluate a Small Business Acquisition",
     summary: "A framework for normalising earnings, stress-testing assumptions and building defensible valuations in UK SME transactions.",
   },
   {
