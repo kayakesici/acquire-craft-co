@@ -12,7 +12,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="bg-gradient-to-b from-primary to-[hsl(222,47%,9%)] px-6 py-[60px] pb-[70px]">
+    <section id="contact" className="bg-primary px-6 pt-[60px] pb-[70px]">
       <div className="mx-auto max-w-[640px] text-center">
         <h2 className="mb-3.5 text-3xl font-bold tracking-tight text-primary-foreground md:text-4xl">
           Book a Confidential Call

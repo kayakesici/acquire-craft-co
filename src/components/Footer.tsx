@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const CALENDLY_URL = "https://calendly.com/kayakesici-6v8c/30min";
 
 const Footer = () => (
-  <footer className="bg-[hsl(222,47%,9%)] px-6 pb-8 pt-0">
+  <footer className="bg-primary px-6 pb-8 pt-0">
     {/* Separator */}
     <div className="mx-auto mb-8 max-w-[600px] border-t border-primary-foreground/10" />
 
