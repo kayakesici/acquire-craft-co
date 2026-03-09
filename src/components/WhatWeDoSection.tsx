@@ -5,7 +5,7 @@ const WhatWeDoSection = () => (
         How We Operate
       </h2>
       <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        A disciplined weekly cadence of deal origination, financial underwriting and transaction execution — embedded inside your operation.
+        A disciplined weekly cadence of deal origination, financial modell and transaction execution — embedded inside your operation.
       </p>
 
       <div className="grid gap-6 md:grid-cols-3">
@@ -29,7 +29,7 @@ const WhatWeDoSection = () => (
           </h3>
           <p className="mb-4 text-sm font-medium text-accent">Paid per opportunity</p>
           <p className="text-sm leading-relaxed text-muted-foreground">
-            Full financial underwriting including clean EBITDA normalisation, base/floor/upside valuation scenarios, debt service coverage modelling, and indicative deal structure.
+            Full findeal analysiscluding clean EBITDA normalisation, base/floor/upside valuation scenarios, debt service coverage modelling, and indicative deal structure.
           </p>
         </div>
 
