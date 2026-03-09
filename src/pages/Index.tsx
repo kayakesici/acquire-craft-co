@@ -6,8 +6,6 @@ import MarketFocusSection from "@/components/MarketFocusSection";
 import WhatWeDoSection from "@/components/WhatWeDoSection";
 import ProcessSection from "@/components/ProcessSection";
 import WhyUsSection from "@/components/WhyUsSection";
-import DealAnalysisSection from "@/components/DealAnalysisSection";
-import InsightsSection from "@/components/InsightsSection";
 import TeamSection from "@/components/TeamSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -33,12 +31,6 @@ const Index = () => (
       </ScrollReveal>
       <ScrollReveal>
         <WhyUsSection />
-      </ScrollReveal>
-      <ScrollReveal>
-        <DealAnalysisSection />
-      </ScrollReveal>
-      <ScrollReveal>
-        <InsightsSection />
       </ScrollReveal>
       <ScrollReveal>
         <TeamSection />

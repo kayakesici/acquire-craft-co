@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-const CALENDLY_URL = "https://calendly.com/kayakesici-6v8c/30min";
+const MAILTO_URL = "mailto:dealflow@acquisition.co.uk?subject=Confidential%20Acquisition%20Discussion&body=Hi%2C%20I%20would%20like%20to%20discuss%20acquisition%20opportunities.";
 
 const HeroSection = () => (
   <section className="relative bg-primary px-6 py-16 md:py-20">
@@ -12,7 +12,7 @@ const HeroSection = () => (
         We help business owners find and complete bolt-on acquisitions.
       </h1>
       <p className="mx-auto mb-5 max-w-[680px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We work as your outsourced acquisition team — sourcing deals, running the numbers and managing the process through to completion.
+        We work as your outsourced acquisition team — sourcing deals, running the numbers and managing the process through to successful completion.
       </p>
       <p className="mx-auto mb-10 max-w-[680px] text-xs font-medium uppercase tracking-widest text-primary-foreground/40">
         For owner-operators and investors actively acquiring UK businesses.
@@ -23,7 +23,7 @@ const HeroSection = () => (
           className="bg-accent text-accent-foreground hover:bg-accent/90"
           asChild
         >
-          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer">
+          <a href={MAILTO_URL}>
             Book a Confidential Call
           </a>
         </Button>
