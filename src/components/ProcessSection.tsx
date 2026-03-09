@@ -1,19 +1,19 @@
 const steps = [
-  { title: "Origination", desc: "Targeted sourcing of potential acquisition opportunities and inbound deal screening." },
-  { title: "Screening", desc: "Initial review of opportunities, quick financial assessment, and short deal summaries." },
-  { title: "Financial Analysis", desc: "Financial modelling, EBITDA adjustments, and valuation scenarios." },
-  { title: "Offer & Structure", desc: "Indicative deal structure and support preparing Heads of Terms." },
-  { title: "Diligence & Close", desc: "Coordination across lenders, lawyers, and accountants through to completion." },
+  { title: "Origination", desc: "We source acquisition opportunities aligned with your criteria." },
+  { title: "Screening", desc: "We review opportunities quickly and prepare short summaries." },
+  { title: "Financial Analysis", desc: "We build financial models and test valuation scenarios." },
+  { title: "Offer & Structure", desc: "We help prepare Heads of Terms and negotiate deal structure." },
+  { title: "Diligence & Close", desc: "We coordinate lenders, lawyers and accountants through completion." },
 ];
 
 const ProcessSection = () => (
   <section id="process" className="bg-muted px-6 py-14 md:py-16">
     <div className="mx-auto max-w-6xl">
       <h2 className="mb-3 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-        Our Deal Execution Process
+        How a Deal Gets Done
       </h2>
       <p className="mx-auto mb-12 max-w-[680px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        A structured five-stage process from origination through to completion.
+        A clear five-step process from finding opportunities to completing the deal.
       </p>
 
       {/* Desktop */}

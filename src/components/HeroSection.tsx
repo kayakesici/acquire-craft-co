@@ -9,10 +9,10 @@ const HeroSection = () => (
         Buy-Side M&amp;A Advisory &nbsp;·&nbsp; UK SME Acquisitions
       </p>
       <h1 className="mb-7 text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
-        We help business owners identify and execute bolt-on acquisitions.
+        We help business owners find and complete bolt-on acquisitions.
       </h1>
       <p className="mx-auto mb-5 max-w-[680px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We operate as an outsourced acquisition function — sourcing opportunities, analysing deals and supporting transactions through completion.
+        We work as your outsourced acquisition team — sourcing deals, running the numbers and managing the process through to completion.
       </p>
       <p className="mx-auto mb-10 max-w-[680px] text-xs font-medium uppercase tracking-widest text-primary-foreground/40">
         For owner-operators and investors actively acquiring UK businesses.
