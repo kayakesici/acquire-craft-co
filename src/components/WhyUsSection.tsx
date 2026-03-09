@@ -8,13 +8,13 @@ const pillars = [
   },
   {
     icon: BarChart3,
-    title: "Institutional Modelling",
+    title: "Financial Modelling Discipline",
     desc: "Floor, base, and max-case financials with normalised EBITDA, debt service coverage, and downside protection built in.",
   },
   {
     icon: Shield,
     title: "Embedded Execution",
-    desc: "We operate inside your back office as a virtual acquisition function — not an external advisor producing reports.",
+    desc: "We operate inside your business as an outsourced acquisition function — not an external advisor producing reports.",
   },
 ];
 
