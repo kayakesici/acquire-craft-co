@@ -23,7 +23,7 @@ const ContactSection = () => {
         </p>
         <a
           href="mailto:dealflow@acquisitionteam.co.uk"
-          className="inline-block text-[15px] font-medium text-foreground/80 underline underline-offset-4 transition-colors hover:text-foreground"
+          className="inline-block text-sm font-semibold text-foreground/85 underline underline-offset-4 transition-colors hover:text-foreground"
         >
           dealflow@acquisitionteam.co.uk
         </a>

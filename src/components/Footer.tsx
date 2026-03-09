@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="mx-auto max-w-[700px] border-t border-border/60" />
 
     {/* 3-column grid */}
-    <div className="mx-auto max-w-5xl pt-10 grid gap-12 text-sm md:grid-cols-3">
+    <div className="mx-auto max-w-5xl pt-10 grid gap-x-24 gap-y-10 text-sm md:grid-cols-3">
       {/* Col 1 – Brand */}
       <div>
         <p className="font-bold text-foreground">The Acquisition Team</p>
