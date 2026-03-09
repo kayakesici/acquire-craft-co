@@ -1,8 +1,8 @@
 const metrics = [
   "200+ vendor conversations",
   "100+ opportunities screened",
-  "Financial modelling discipline",
   "UK SME acquisition focus",
+  "Bolt-on acquisition strategies",
 ];
 
 const CredibilityStrip = () => (

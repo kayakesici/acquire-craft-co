@@ -4,7 +4,6 @@ const CALENDLY_URL = "https://calendly.com/kayakesici-6v8c/30min";
 
 const ContactSection = () => {
   const handleBookCall = () => {
-    // Try Calendly popup if script is loaded, otherwise open in new tab
     if (typeof window !== "undefined" && (window as any).Calendly) {
       (window as any).Calendly.initPopupWidget({ url: CALENDLY_URL });
     } else {
@@ -19,7 +18,7 @@ const ContactSection = () => {
           Book a Confidential Call
         </h2>
         <p className="mx-auto mb-10 max-w-[600px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-          If you are actively looking to acquire UK businesses, we can discuss your acquisition criteria, pipeline and where we may be able to support.
+          If you are actively acquiring UK businesses, we can discuss your acquisition criteria, pipeline and where we may be able to support.
         </p>
         <Button
           size="lg"

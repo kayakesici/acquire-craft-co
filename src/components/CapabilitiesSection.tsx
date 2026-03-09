@@ -30,7 +30,7 @@ const CapabilitiesSection = () => (
         Our Capabilities
       </h2>
       <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        A full-spectrum buy-side advisory capability for acquiring UK SME businesses.
+        Everything owner-operators and investors need to source, evaluate and complete UK SME acquisitions.
       </p>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
