@@ -4,13 +4,13 @@ const HeroSection = () => (
   <section className="relative bg-primary px-6 py-16 md:py-24">
     <div className="mx-auto max-w-3xl text-center">
       <p className="mb-5 text-xs font-semibold uppercase tracking-[0.25em] text-primary-foreground/40">
-        Private Capital. Disciplined Execution.
+        Buy-Side M&amp;A Advisory &nbsp;·&nbsp; UK SME Acquisitions
       </p>
       <h1 className="mb-6 text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
-        An outsourced M&amp;A function for sourcing, structuring and executing UK SME acquisitions.
+        Outsourced acquisition execution for UK SME deal origination, underwriting and completion.
       </h1>
       <p className="mx-auto mb-10 max-w-[720px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We originate targets, screen opportunities, build financial models and manage acquisition execution through to completion.
+        We build and manage your deal origination pipeline, underwrite opportunities with institutional modelling discipline, and execute transactions through to completion.
       </p>
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Button
@@ -28,7 +28,7 @@ const HeroSection = () => (
         </a>
       </div>
       <p className="mt-8 text-xs tracking-wide text-primary-foreground/30">
-        200+ vendor calls &nbsp;|&nbsp; Clean EBITDA modelling &nbsp;|&nbsp; UK SME acquisitions
+        Deal origination &nbsp;·&nbsp; Financial underwriting &nbsp;·&nbsp; Transaction execution
       </p>
     </div>
   </section>
