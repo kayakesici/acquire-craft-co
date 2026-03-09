@@ -53,10 +53,10 @@ const WhatWeDoSection = () => (
           </h3>
           <p className="mb-5 text-sm font-medium text-accent">Success fee on completion</p>
           <p className="mb-3 max-w-2xl text-sm leading-relaxed text-muted-foreground">
-            Funding introductions and lender comparison. Transaction management through diligence, legal coordination and deal structuring.
+            Funding introductions and lender comparison. Full transaction management through due diligence, legal coordination and deal structuring.
           </p>
           <p className="max-w-2xl text-sm leading-relaxed text-muted-foreground">
-            We manage the process across finance, legal, tax and operations until completion.
+            We manage the execution process across finance, legal, tax and operations until completion — acting as your embedded acquisition function.
           </p>
         </div>
       </div>

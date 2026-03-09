@@ -10,7 +10,7 @@ const HeroSection = () => (
         Outsourced acquisition execution for UK SME deal origination, underwriting and completion.
       </h1>
       <p className="mx-auto mb-10 max-w-[720px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We originate targets, screen opportunities, build financial models and manage acquisition execution through to completion.
+        We build and manage your deal origination pipeline, underwrite opportunities with institutional modelling discipline, and execute transactions through to completion.
       </p>
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Button
