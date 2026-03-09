@@ -9,10 +9,13 @@ const HeroSection = () => (
         Buy-Side M&amp;A Advisory &nbsp;·&nbsp; UK SME Acquisitions
       </p>
       <h1 className="mb-6 text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
-        Outsourced acquisition execution for UK SME deal origination, evaluation &amp; completion.
+        We help business owners identify and execute bolt-on acquisitions.
       </h1>
-      <p className="mx-auto mb-10 max-w-[720px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We build and manage your deal origination pipeline, evaluate opportunities with financial modelling discipline, and execute transactions through to completion — including bolt-on acquisition strategies.
+      <p className="mx-auto mb-4 max-w-[720px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
+        We operate as an outsourced acquisition function — sourcing opportunities, analysing deals and supporting transactions through completion.
+      </p>
+      <p className="mx-auto mb-10 max-w-[720px] text-xs font-medium uppercase tracking-widest text-primary-foreground/40">
+        For owner-operators and investors actively acquiring UK businesses.
       </p>
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Button
@@ -31,9 +34,6 @@ const HeroSection = () => (
           View Our Process
         </a>
       </div>
-      <p className="mt-8 text-xs tracking-wide text-primary-foreground/30">
-        Deal origination &nbsp;·&nbsp; Financial modelling &nbsp;·&nbsp; Transaction execution
-      </p>
     </div>
   </section>
 );

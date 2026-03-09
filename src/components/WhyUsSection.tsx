@@ -28,7 +28,7 @@ const WhyUsSection = () => (
         Most acquisitions fail due to poor deal selection and lack of execution discipline.
       </p>
       <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        We provide the structured pipeline, financial modelling rigour and weekly deal cadence required to convert acquisition intent into completed transactions.
+        We provide the sourcing, screening, financial modelling and deal analysis required to convert acquisition intent into completed transactions.
       </p>
 
       <div className="grid gap-6 md:grid-cols-3">
