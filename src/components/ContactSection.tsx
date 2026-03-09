@@ -30,7 +30,7 @@ const ContactSection = () => {
         <div className="mt-5">
           <Button
             size="lg"
-            className="bg-accent text-accent-foreground hover:bg-accent/80 rounded-md px-7 py-3.5 text-base"
+            className="bg-accent text-accent-foreground hover:bg-accent/75 rounded-md px-8 py-3.5 text-base"
             onClick={handleBookCall}
           >
             Book a Confidential Call
