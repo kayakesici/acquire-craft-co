@@ -3,7 +3,7 @@ const focuses = [
   "Enterprise value £1m–£10m",
   "Owner-managed businesses",
   "Bolt-on acquisition strategies",
-  "Revenue-generating, profitable trading businesses",
+  "Profitable operating businesses",
 ];
 
 const MarketFocusSection = () => (

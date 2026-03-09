@@ -1,25 +1,25 @@
-import { Briefcase, Search, BarChart3, FileText } from "lucide-react";
+import { Search, BarChart3, FileText, Target } from "lucide-react";
 
 const capabilities = [
   {
-    icon: Briefcase,
-    title: "Buy-Side Acquisition Execution",
-    desc: "End-to-end management of the acquisition process from mandate through to completion on behalf of the buyer.",
-  },
-  {
-    icon: Search,
+    icon: Target,
     title: "Deal Origination & Pipeline Development",
     desc: "Systematic sourcing of proprietary and intermediated opportunities aligned to defined acquisition criteria.",
   },
   {
+    icon: Search,
+    title: "Opportunity Screening & Deal Analysis",
+    desc: "Structured screening and fast-kill discipline applied to every inbound and outbound opportunity.",
+  },
+  {
     icon: BarChart3,
-    title: "Financial Evaluation & Deal Analysis",
-    desc: "Institutional-grade financial analysis including normalised EBITDA, valuation scenarios and debt service modelling.",
+    title: "Financial Modelling & Valuation",
+    desc: "Normalised EBITDA analysis, base/floor/upside valuation scenarios, and debt service coverage modelling.",
   },
   {
     icon: FileText,
-    title: "Transaction Structuring & Execution",
-    desc: "Deal structuring, Heads of Terms preparation and negotiation support through to signed SPA.",
+    title: "Transaction Execution & Coordination",
+    desc: "Deal structuring, Heads of Terms preparation, and coordination across lenders, lawyers and accountants through to completion.",
   },
 ];
 

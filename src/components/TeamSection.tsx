@@ -8,10 +8,10 @@ const TeamSection = () => (
         Built by practitioners with direct buy-and-build execution experience across UK small-cap acquisitions.
       </p>
       <p className="mx-auto mb-5 max-w-[720px] text-sm leading-relaxed text-muted-foreground md:text-base">
-        200+ vendor calls completed. Institutional-grade financial modelling discipline applied to SME deal flow.
+        200+ vendor calls completed. Financial modelling discipline applied to every opportunity in our deal flow.
       </p>
       <p className="mx-auto max-w-[720px] text-sm leading-relaxed text-muted-foreground md:text-base">
-        We operate with the rigour of a private equity acquisition function — structured, process-driven and embedded inside your business.
+        We operate as an outsourced acquisition function — structured, process-driven and embedded inside your business.
       </p>
     </div>
   </section>

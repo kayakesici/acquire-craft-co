@@ -5,7 +5,7 @@ const WhatWeDoSection = () => (
         How We Operate
       </h2>
       <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        A disciplined weekly cadence of deal origination, financial modell and transaction execution — embedded inside your operation.
+        A disciplined weekly cadence of deal origination, structured deal analysis, and transaction execution — embedded inside your operation as an outsourced acquisition function.
       </p>
 
       <div className="grid gap-6 md:grid-cols-3">
@@ -16,9 +16,13 @@ const WhatWeDoSection = () => (
             Build the Acquisition Engine
           </h3>
           <p className="mb-4 text-sm font-medium text-accent">£2,000 per month — 6-month minimum</p>
-          <p className="text-sm leading-relaxed text-muted-foreground">
-            Define acquisition criteria and build a systematic deal origination pipeline. Screen and triage opportunities with institutional discipline within a structured weekly cadence.
-          </p>
+          <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+            <li>• Define acquisition criteria</li>
+            <li>• Build deal sourcing pipelines</li>
+            <li>• Screen inbound opportunities</li>
+            <li>• Coordinate vendor calls</li>
+            <li>• Run a weekly deal pipeline</li>
+          </ul>
         </div>
 
         {/* Stage 2 */}
@@ -28,9 +32,13 @@ const WhatWeDoSection = () => (
             Evaluate the Opportunity
           </h3>
           <p className="mb-4 text-sm font-medium text-accent">Paid per opportunity</p>
-          <p className="text-sm leading-relaxed text-muted-foreground">
-            Full findeal analysiscluding clean EBITDA normalisation, base/floor/upside valuation scenarios, debt service coverage modelling, and indicative deal structure.
-          </p>
+          <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+            <li>• Financial modelling</li>
+            <li>• EBITDA normalisation</li>
+            <li>• Valuation scenarios (base, floor, upside)</li>
+            <li>• Risk analysis</li>
+            <li>• Draft offer or Heads of Terms preparation</li>
+          </ul>
         </div>
 
         {/* Stage 3 */}
@@ -40,9 +48,13 @@ const WhatWeDoSection = () => (
             Execute the Transaction
           </h3>
           <p className="mb-4 text-sm font-medium text-accent">Success fee on completion</p>
-          <p className="text-sm leading-relaxed text-muted-foreground">
-            Funding introductions and lender comparison. Full transaction management through due diligence, legal coordination and deal structuring until completion.
-          </p>
+          <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
+            <li>• Funding introductions</li>
+            <li>• Diligence coordination</li>
+            <li>• Legal and tax coordination</li>
+            <li>• Negotiation support</li>
+            <li>• Transaction management through completion</li>
+          </ul>
         </div>
       </div>
     </div>

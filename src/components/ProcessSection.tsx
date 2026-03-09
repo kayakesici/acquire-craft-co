@@ -1,9 +1,9 @@
 const steps = [
-  { title: "Origination", desc: "Targeted sourcing and inbound triage" },
-  { title: "Screening", desc: "Fast kill discipline and 1-page deal memos" },
-  { title: "Modelling", desc: "Clean valuation, downside case, debt service coverage" },
-  { title: "Offer & Structure", desc: "Indicative terms and Heads of Terms support" },
-  { title: "Diligence & Close", desc: "Weekly execution cadence through to completion" },
+  { title: "Origination", desc: "Targeted sourcing of potential acquisition opportunities and inbound deal screening." },
+  { title: "Screening", desc: "Initial review of opportunities, quick financial assessment, and short deal summaries." },
+  { title: "Financial Analysis", desc: "Financial modelling, EBITDA adjustments, and valuation scenarios." },
+  { title: "Offer & Structure", desc: "Indicative deal structure and support preparing Heads of Terms." },
+  { title: "Diligence & Close", desc: "Coordination across lenders, lawyers, and accountants through to completion." },
 ];
 
 const ProcessSection = () => (
@@ -29,7 +29,7 @@ const ProcessSection = () => (
               )}
             </div>
             <h3 className="mt-5 text-sm font-semibold text-foreground">{step.title}</h3>
-            <p className="mt-2 max-w-[160px] text-xs leading-relaxed text-muted-foreground">{step.desc}</p>
+            <p className="mt-2 max-w-[180px] text-xs leading-relaxed text-muted-foreground">{step.desc}</p>
           </div>
         ))}
       </div>

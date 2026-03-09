@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 
+const CALENDLY_URL = "https://calendly.com/kayakesici-6v8c/30min";
+
 const HeroSection = () => (
   <section className="relative bg-primary px-6 py-20 md:py-28">
     <div className="mx-auto max-w-3xl text-center">
@@ -7,18 +9,20 @@ const HeroSection = () => (
         Buy-Side M&amp;A Advisory &nbsp;·&nbsp; UK SME Acquisitions
       </p>
       <h1 className="mb-6 text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
-        Outsourced acquisition execution for UK SME deal origination, evaluation completion.
+        Outsourced acquisition execution for UK SME deal origination, evaluation &amp; completion.
       </h1>
       <p className="mx-auto mb-10 max-w-[720px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We build and manage your deal origination pipeline, unevevaluaortunities with institutional modelling discipline, and execute transactions through to completion.
+        We build and manage your deal origination pipeline, evaluate opportunities with financial modelling discipline, and execute transactions through to completion — including bolt-on acquisition strategies.
       </p>
       <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
         <Button
           size="lg"
           className="bg-accent text-accent-foreground hover:bg-accent/90"
-          onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+          asChild
         >
-          Book a Confidential Call
+          <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer">
+            Book a Confidential Call
+          </a>
         </Button>
         <a
           href="#process"
@@ -28,7 +32,7 @@ const HeroSection = () => (
         </a>
       </div>
       <p className="mt-8 text-xs tracking-wide text-primary-foreground/30">
-        Deal origination &nbsp;·&nbsp; Financial undemodell&nbsp;·&nbsp; Transaction execution
+        Deal origination &nbsp;·&nbsp; Financial modelling &nbsp;·&nbsp; Transaction execution
       </p>
     </div>
   </section>

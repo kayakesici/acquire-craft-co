@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 
+const CALENDLY_URL = "https://calendly.com/kayakesici-6v8c/30min";
+
 const ContactSection = () => (
   <section id="contact" className="bg-primary px-6 py-16 md:py-20">
     <div className="mx-auto max-w-6xl text-center">
@@ -12,13 +14,23 @@ const ContactSection = () => (
       <Button
         size="lg"
         className="mb-12 bg-accent text-accent-foreground hover:bg-accent/90"
+        asChild
       >
-        Schedule a Call
+        <a href={CALENDLY_URL} target="_blank" rel="noopener noreferrer">
+          Schedule a Call
+        </a>
       </Button>
 
-      {/* Calendly placeholder */}
-      <div className="mx-auto flex h-64 max-w-lg items-center justify-center rounded border border-dashed border-primary-foreground/20 bg-primary-foreground/5">
-        <span className="text-sm text-primary-foreground/40">[Calendly Embed Placeholder]</span>
+      {/* Calendly Embed */}
+      <div className="mx-auto max-w-lg overflow-hidden rounded border border-primary-foreground/20">
+        <iframe
+          src={`${CALENDLY_URL}?hide_gdpr_banner=1`}
+          width="100%"
+          height="700"
+          frameBorder="0"
+          title="Schedule a call with The Acquisition Team"
+          className="bg-primary-foreground/5"
+        />
       </div>
 
       <p className="mt-8 text-xs text-primary-foreground/30">All conversations are confidential.</p>
