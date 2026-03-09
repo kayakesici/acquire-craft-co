@@ -12,24 +12,26 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="bg-primary px-6 py-20">
-      <div className="mx-auto max-w-[680px] text-center">
-        <h2 className="mb-4 text-3xl font-bold tracking-tight text-primary-foreground md:text-4xl">
-          Book a Confidential Call
-        </h2>
-        <p className="mx-auto mb-7 max-w-[600px] text-sm leading-[1.6] text-primary-foreground/60 md:text-base">
-          If you are actively acquiring UK businesses, we can discuss your acquisition criteria, pipeline and where we may be able to support.
-        </p>
-        <Button
-          size="lg"
-          className="bg-accent text-accent-foreground hover:bg-accent/85 rounded-md"
-          onClick={handleBookCall}
-        >
-          Book a Confidential Call
-        </Button>
-        <p className="mt-4 text-xs text-primary-foreground/30">
-          All conversations are confidential.
-        </p>
+    <section id="contact" className="bg-primary px-6 py-14 md:py-16">
+      <div className="mx-auto max-w-[640px]">
+        <div className="rounded-lg border border-primary-foreground/10 bg-primary-foreground/[0.04] px-8 py-8 text-center shadow-[0_4px_24px_rgba(0,0,0,0.15)]">
+          <h2 className="mb-3.5 text-3xl font-bold tracking-tight text-primary-foreground md:text-4xl">
+            Book a Confidential Call
+          </h2>
+          <p className="mx-auto mb-6 max-w-[560px] text-sm leading-[1.6] text-primary-foreground/60 md:text-base">
+            If you are actively acquiring UK businesses, we can discuss your acquisition criteria, pipeline and where we may be able to support.
+          </p>
+          <Button
+            size="lg"
+            className="bg-accent text-accent-foreground hover:bg-accent/80 rounded-md px-10 py-3 text-base"
+            onClick={handleBookCall}
+          >
+            Book a Confidential Call
+          </Button>
+          <p className="mt-3 text-xs text-primary-foreground/30">
+            All conversations are confidential.
+          </p>
+        </div>
       </div>
     </section>
   );
