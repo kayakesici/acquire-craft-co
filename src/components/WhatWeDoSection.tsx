@@ -5,7 +5,7 @@ const WhatWeDoSection = () => (
         How We Operate
       </h2>
       <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
-        We run a disciplined weekly cadence inside your back office — from target identification through to deal completion.
+        A disciplined weekly cadence of deal origination, financial underwriting and transaction execution — embedded inside your operation.
       </p>
 
       <div className="space-y-8">
