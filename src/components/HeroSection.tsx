@@ -7,7 +7,7 @@ const HeroSection = () => (
         Buy-Side M&amp;A Advisory &nbsp;·&nbsp; UK SME Acquisitions
       </p>
       <h1 className="mb-6 text-3xl font-bold leading-tight tracking-tight text-primary-foreground md:text-4xl lg:text-5xl">
-        An outsourced M&amp;A function for sourcing, structuring and executing UK SME acquisitions.
+        Outsourced acquisition execution for UK SME deal origination, underwriting and completion.
       </h1>
       <p className="mx-auto mb-10 max-w-[720px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
         We originate targets, screen opportunities, build financial models and manage acquisition execution through to completion.
