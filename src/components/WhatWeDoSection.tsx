@@ -21,7 +21,7 @@ const WhatWeDoSection = () => (
             <li>• Build sourcing channels</li>
             <li>• Screen inbound opportunities</li>
             <li>• Manage vendor conversations</li>
-            <li>• Run a weekly deal pipeline</li>
+            <li>• Regular progress updates</li>
           </ul>
         </div>
 
@@ -29,15 +29,15 @@ const WhatWeDoSection = () => (
         <div className="rounded-md border border-border bg-background p-8 shadow-sm">
           <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-accent">Stage 2</div>
           <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
-            Analyse the Deal
+            Assess the Opportunities
           </h3>
-          <p className="mb-4 text-sm font-medium text-accent">Paid per opportunity</p>
+          <p className="mb-4 text-sm font-medium text-accent">Analyse the Deal</p>
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li>• Financial modelling</li>
             <li>• Earnings adjustments</li>
             <li>• Valuation scenarios</li>
             <li>• Risk analysis</li>
-            <li>• Draft Heads of Terms</li>
+            <li>• Draft Offer Letter</li>
           </ul>
         </div>
 
@@ -47,13 +47,12 @@ const WhatWeDoSection = () => (
           <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
             Complete the Transaction
           </h3>
-          <p className="mb-4 text-sm font-medium text-accent">Success fee on completion</p>
+          <p className="mb-4 text-sm font-medium text-accent">Access To Advisory Team</p>
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
-            <li>• Funding introductions</li>
-            <li>• Due diligence coordination</li>
-            <li>• Legal and tax coordination</li>
+            <li>• Fundraising</li>
+            <li>• Due Diligence (Legal & Tax)</li>
             <li>• Negotiation support</li>
-            <li>• Manage the deal through completion</li>
+            <li>• Successful Completion</li>
           </ul>
         </div>
       </div>

@@ -1,20 +1,20 @@
-import { Shield, BarChart3, Target } from "lucide-react";
+import { Clock, BarChart3, Target } from "lucide-react";
 
 const pillars = [
   {
+    icon: Clock,
+    title: "Busy Business Owners",
+    desc: "Business owners want to grow through acquisition but are too busy running their company to find the right deals.",
+  },
+  {
     icon: Target,
-    title: "Disciplined Deal Selection",
-    desc: "We filter out weak opportunities so you only spend time on deals worth pursuing.",
+    title: "Disciplined Pipeline Management",
+    desc: "We maintain a structured pipeline so you only spend time reviewing the opportunities that fit your criteria.",
   },
   {
     icon: BarChart3,
-    title: "Clear Financial Analysis",
-    desc: "Proper financial modelling before you commit — with base, floor and upside scenarios.",
-  },
-  {
-    icon: Shield,
-    title: "Embedded Execution",
-    desc: "We work as part of your team, not an external adviser producing reports.",
+    title: "Efficient Financial Analysis",
+    desc: "We quickly assess financials so you understand the risks and potential of each opportunity before moving forward.",
   },
 ];
 
@@ -31,7 +31,7 @@ const WhyUsSection = () => (
       <div className="grid gap-8 md:grid-cols-3">
         {pillars.map((p) => (
           <div key={p.title} className="rounded-md border border-border bg-background p-8 shadow-sm md:p-10">
-            <p.icon className="mb-5 h-9 w-9 text-accent" />
+            <p.icon className="mb-5 h-10 w-10 text-accent" />
             <h3 className="mb-3 font-['Playfair_Display',Georgia,serif] text-lg font-semibold text-card-foreground">
               {p.title}
             </h3>
