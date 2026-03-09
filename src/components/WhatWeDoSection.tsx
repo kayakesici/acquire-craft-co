@@ -50,10 +50,10 @@ const WhatWeDoSection = () => (
           <p className="mb-4 text-sm font-medium text-accent">Access to professional advisors</p>
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li>• Fundraising</li>
-            <li>• Due Diligence</li>
-            <li>• Legal & Tax</li>
+            <li>• Due diligence</li>
+            <li>• Legal & tax</li>
             <li>• Negotiation support</li>
-            <li>• Successful Completion</li>
+            <li>• Successful completion</li>
           </ul>
         </div>
       </div>
