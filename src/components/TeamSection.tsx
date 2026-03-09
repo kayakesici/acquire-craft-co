@@ -1,7 +1,7 @@
 const TeamSection = () => (
-  <section className="bg-card px-6 py-12 md:py-16">
-    <div className="mx-auto max-w-5xl text-center">
-      <h2 className="mb-8 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+  <section className="bg-muted px-6 py-16 md:py-20">
+    <div className="mx-auto max-w-6xl text-center">
+      <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Who We Are
       </h2>
       <p className="mx-auto mb-5 max-w-[720px] text-sm leading-relaxed text-muted-foreground md:text-base">

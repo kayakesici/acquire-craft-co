@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => (
-  <section className="relative bg-primary px-6 py-16 md:py-24">
+  <section className="relative bg-primary px-6 py-20 md:py-28">
     <div className="mx-auto max-w-3xl text-center">
       <p className="mb-5 text-xs font-semibold uppercase tracking-[0.25em] text-primary-foreground/40">
         Buy-Side M&amp;A Advisory &nbsp;·&nbsp; UK SME Acquisitions

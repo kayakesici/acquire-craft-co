@@ -6,10 +6,10 @@ const metrics = [
 ];
 
 const CredibilityStrip = () => (
-  <section className="border-y border-border bg-card px-6 py-6">
-    <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-8 gap-y-2">
+  <section className="border-y border-border bg-card px-6 py-5">
+    <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-10 gap-y-2">
       {metrics.map((m, i) => (
-        <span key={m} className="flex items-center gap-3 text-xs font-medium uppercase tracking-widest text-muted-foreground">
+        <span key={m} className="flex items-center gap-4 text-xs font-medium uppercase tracking-widest text-muted-foreground">
           {i > 0 && <span className="hidden text-border sm:inline">|</span>}
           {m}
         </span>
