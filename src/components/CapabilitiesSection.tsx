@@ -18,8 +18,8 @@ const capabilities = [
   },
   {
     icon: FileText,
-    title: "Transaction Execution",
-    desc: "Deal structuring, Offer Letter preparation, and coordination through to successful completion.",
+    title: "Transaction Support",
+    desc: "Deal structuring, Offer Letter preparation, and management through to successful completion.",
   },
 ];
 
