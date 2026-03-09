@@ -16,7 +16,7 @@ const MarketFocusSection = () => (
         We operate exclusively within the UK lower mid-market, targeting acquisitions where disciplined execution creates measurable value.
       </p>
 
-      <ul className="mx-auto max-w-[540px] space-y-3">
+      <ul className="mx-auto max-w-[420px] space-y-2.5">
         {focuses.map((f) => (
           <li key={f} className="flex items-start gap-3 text-sm leading-[1.6] text-muted-foreground md:text-base">
             <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-accent" />
