@@ -12,30 +12,22 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="bg-background px-6 pt-10 pb-8">
+    <section id="contact" className="bg-background px-6 py-10">
       <div className="mx-auto max-w-[640px] text-center">
         <h2 className="mb-3 text-[2rem] font-bold tracking-tight text-foreground md:text-[2.5rem]">
           Book a Confidential Call
         </h2>
-        <p className="mx-auto mb-2.5 max-w-[520px] text-sm leading-[1.6] text-muted-foreground md:text-base">
+        <p className="mx-auto mb-6 max-w-[520px] text-sm leading-[1.6] text-muted-foreground md:text-base">
           If you are actively acquiring UK businesses, we can discuss your
           acquisition criteria, pipeline and where we may be able to support.
         </p>
-        <a
-          href="mailto:dealflow@acquisitionteam.co.uk"
-          className="inline-block text-sm font-semibold text-foreground/85 underline underline-offset-4 transition-colors hover:text-foreground"
+        <Button
+          size="lg"
+          className="bg-accent text-accent-foreground hover:bg-accent/75 rounded-md px-8 py-3.5 text-base"
+          onClick={handleBookCall}
         >
-          dealflow@acquisitionteam.co.uk
-        </a>
-        <div className="mt-4">
-          <Button
-            size="lg"
-            className="bg-accent text-accent-foreground hover:bg-accent/75 rounded-md px-8 py-3.5 text-base"
-            onClick={handleBookCall}
-          >
-            Book a Confidential Call
-          </Button>
-        </div>
+          Book a Confidential Call
+        </Button>
       </div>
     </section>
   );
