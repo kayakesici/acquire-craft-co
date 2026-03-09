@@ -15,7 +15,7 @@ const WhatWeDoSection = () => (
           <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
             Build Your Pipeline
           </h3>
-          <p className="mb-4 text-sm font-medium text-accent">£2,000/month — 6-month minimum</p>
+          <p className="mb-4 text-sm font-medium text-accent">Regular Deal Flow</p>
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li>• Define what you want to buy</li>
             <li>• Build sourcing channels</li>
@@ -37,7 +37,7 @@ const WhatWeDoSection = () => (
             <li>• Earnings adjustments</li>
             <li>• Valuation scenarios</li>
             <li>• Risk analysis</li>
-            <li>• Draft Offer Letter</li>
+            <li>• Draft Proposal Letter</li>
           </ul>
         </div>
 
@@ -50,7 +50,8 @@ const WhatWeDoSection = () => (
           <p className="mb-4 text-sm font-medium text-accent">Access To Advisory Team</p>
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li>• Fundraising</li>
-            <li>• Due Diligence (Legal & Tax)</li>
+            <li>• Due Diligence</li>
+            <li>• Legal & Tax</li>
             <li>• Negotiation support</li>
             <li>• Successful Completion</li>
           </ul>
