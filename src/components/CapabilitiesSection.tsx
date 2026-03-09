@@ -14,28 +14,28 @@ const capabilities = [
   {
     icon: BarChart3,
     title: "Financial Modelling & Valuation",
-    desc: "Normalised EBITDA analysis, base/floor/upside valuation scenarios, and debt service coverage modelling.",
+    desc: "Normalised EBITDA analysis, valuation scenarios, and debt service coverage modelling.",
   },
   {
     icon: FileText,
     title: "Transaction Execution & Coordination",
-    desc: "Deal structuring, Heads of Terms preparation, and coordination across lenders, lawyers and accountants through to completion.",
+    desc: "Deal structuring, Heads of Terms preparation, and coordination through to completion.",
   },
 ];
 
 const CapabilitiesSection = () => (
-  <section id="capabilities" className="bg-card px-6 py-16 md:py-20">
+  <section id="capabilities" className="bg-card px-6 py-14 md:py-16">
     <div className="mx-auto max-w-6xl">
       <h2 className="mb-3 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Our Capabilities
       </h2>
-      <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
+      <p className="mx-auto mb-10 max-w-[680px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
         Everything owner-operators and investors need to source, evaluate and complete UK SME acquisitions.
       </p>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {capabilities.map((c) => (
-          <div key={c.title} className="rounded-md border border-border bg-background p-6 shadow-sm transition-shadow hover:shadow-md">
+          <div key={c.title} className="flex flex-col rounded-md border border-border bg-background p-7 shadow-sm transition-shadow hover:shadow-md">
             <c.icon className="mb-4 h-7 w-7 text-accent" />
             <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-base font-semibold text-foreground">
               {c.title}

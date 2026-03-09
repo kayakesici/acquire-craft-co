@@ -1,18 +1,18 @@
 const WhatWeDoSection = () => (
-  <section id="what-we-do" className="bg-card px-6 py-16 md:py-20">
+  <section id="what-we-do" className="bg-card px-6 py-14 md:py-16">
     <div className="mx-auto max-w-6xl">
       <h2 className="mb-3 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         How We Operate
       </h2>
-      <p className="mx-auto mb-12 max-w-[720px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
+      <p className="mx-auto mb-10 max-w-[680px] text-center text-sm leading-relaxed text-muted-foreground md:text-base">
         A disciplined weekly cadence of deal origination, structured deal analysis, and transaction execution — embedded inside your operation as an outsourced acquisition function.
       </p>
 
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-8 md:grid-cols-3">
         {/* Stage 1 */}
         <div className="rounded-md border border-border bg-background p-8 shadow-sm">
-          <div className="mb-3 text-xs font-medium uppercase tracking-widest text-accent">Stage 1</div>
-          <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-semibold text-card-foreground">
+          <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-accent">Stage 1</div>
+          <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
             Build the Acquisition Engine
           </h3>
           <p className="mb-4 text-sm font-medium text-accent">£2,000 per month — 6-month minimum</p>
@@ -27,8 +27,8 @@ const WhatWeDoSection = () => (
 
         {/* Stage 2 */}
         <div className="rounded-md border border-border bg-background p-8 shadow-sm">
-          <div className="mb-3 text-xs font-medium uppercase tracking-widest text-accent">Stage 2</div>
-          <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-semibold text-card-foreground">
+          <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-accent">Stage 2</div>
+          <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
             Evaluate the Opportunity
           </h3>
           <p className="mb-4 text-sm font-medium text-accent">Paid per opportunity</p>
@@ -43,8 +43,8 @@ const WhatWeDoSection = () => (
 
         {/* Stage 3 */}
         <div className="rounded-md border border-border bg-background p-8 shadow-sm">
-          <div className="mb-3 text-xs font-medium uppercase tracking-widest text-accent">Stage 3</div>
-          <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-semibold text-card-foreground">
+          <div className="mb-3 text-[10px] font-semibold uppercase tracking-[0.2em] text-accent">Stage 3</div>
+          <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
             Execute the Transaction
           </h3>
           <p className="mb-4 text-sm font-medium text-accent">Success fee on completion</p>

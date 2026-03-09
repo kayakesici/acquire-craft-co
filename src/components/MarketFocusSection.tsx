@@ -7,16 +7,16 @@ const focuses = [
 ];
 
 const MarketFocusSection = () => (
-  <section id="market-focus" className="bg-muted px-6 py-20">
+  <section id="market-focus" className="bg-muted px-6 py-14 md:py-16">
     <div className="mx-auto max-w-6xl">
       <h2 className="mb-3 text-center text-3xl font-bold tracking-tight text-foreground md:text-4xl">
         Our Market Focus
       </h2>
-      <p className="mx-auto mb-10 max-w-[720px] text-center text-sm leading-[1.6] text-muted-foreground md:text-base">
+      <p className="mx-auto mb-10 max-w-[680px] text-center text-sm leading-[1.6] text-muted-foreground md:text-base">
         We operate exclusively within the UK lower mid-market, targeting acquisitions where disciplined execution creates measurable value.
       </p>
 
-      <ul className="mx-auto w-fit list-none space-y-2.5 pl-0">
+      <ul className="mx-auto w-fit max-w-[380px] list-none space-y-3 pl-0">
         {focuses.map((f) => (
           <li key={f} className="flex items-center gap-2.5 text-sm leading-[1.6] text-muted-foreground md:text-base">
             <span className="h-2 w-2 flex-shrink-0 rounded-full bg-accent" />
