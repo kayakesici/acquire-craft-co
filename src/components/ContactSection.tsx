@@ -14,7 +14,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="bg-background px-6 pt-8 pb-16 md:pt-10 md:pb-20">
       <div className="mx-auto max-w-[640px] text-center">
-        <h2 className="mb-3.5 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+        <h2 className="mb-3.5 text-[2rem] font-bold tracking-tight text-foreground md:text-[2.5rem]">
           Book a Confidential Call
         </h2>
         <p className="mx-auto mb-3 max-w-[520px] text-sm leading-[1.6] text-muted-foreground md:text-base">
@@ -30,7 +30,7 @@ const ContactSection = () => {
         <div className="mt-5">
           <Button
             size="lg"
-            className="bg-accent text-accent-foreground hover:bg-accent/80 rounded-md px-7 py-3.5 text-base"
+            className="bg-accent text-accent-foreground hover:bg-accent/75 rounded-md px-8 py-3.5 text-base"
             onClick={handleBookCall}
           >
             Book a Confidential Call
