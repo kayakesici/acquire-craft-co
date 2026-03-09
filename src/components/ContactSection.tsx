@@ -12,37 +12,29 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="bg-background px-6 py-16 md:py-20">
-      <div className="mx-auto max-w-5xl">
-        <div className="grid gap-10 md:grid-cols-2 md:items-center">
-          {/* Left column */}
-          <div>
-            <h2 className="mb-3.5 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
-              Book a Confidential Call
-            </h2>
-            <p className="mb-5 max-w-[480px] text-sm leading-[1.6] text-muted-foreground md:text-base">
-              If you are actively acquiring UK businesses, we can discuss your
-              acquisition criteria, pipeline and where we may be able to
-              support.
-            </p>
-            <a
-              href="mailto:dealflow@acquisitionteam.co.uk"
-              className="text-sm font-medium text-foreground/70 underline underline-offset-4 transition-colors hover:text-foreground"
-            >
-              dealflow@acquisitionteam.co.uk
-            </a>
-          </div>
-
-          {/* Right column */}
-          <div className="flex md:justify-end">
-            <Button
-              size="lg"
-              className="bg-accent text-accent-foreground hover:bg-accent/80 rounded-md px-7 py-3.5 text-base"
-              onClick={handleBookCall}
-            >
-              Book a Confidential Call
-            </Button>
-          </div>
+    <section id="contact" className="bg-background px-6 pt-12 pb-16 md:pt-14 md:pb-20">
+      <div className="mx-auto max-w-[640px] text-center">
+        <h2 className="mb-3.5 text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+          Book a Confidential Call
+        </h2>
+        <p className="mx-auto mb-3 max-w-[520px] text-sm leading-[1.6] text-muted-foreground md:text-base">
+          If you are actively acquiring UK businesses, we can discuss your
+          acquisition criteria, pipeline and where we may be able to support.
+        </p>
+        <a
+          href="mailto:dealflow@acquisitionteam.co.uk"
+          className="inline-block text-[15px] font-medium text-foreground/80 underline underline-offset-4 transition-colors hover:text-foreground"
+        >
+          dealflow@acquisitionteam.co.uk
+        </a>
+        <div className="mt-5">
+          <Button
+            size="lg"
+            className="bg-accent text-accent-foreground hover:bg-accent/80 rounded-md px-7 py-3.5 text-base"
+            onClick={handleBookCall}
+          >
+            Book a Confidential Call
+          </Button>
         </div>
       </div>
     </section>
