@@ -47,7 +47,7 @@ const WhatWeDoSection = () => (
           <h3 className="mb-2 font-['Playfair_Display',Georgia,serif] text-xl font-bold text-card-foreground">
             Complete the Transaction
           </h3>
-          <p className="mb-4 text-sm font-medium text-accent">Access To Advisory Team</p>
+          <p className="mb-4 text-sm font-medium text-accent">Access to professional advisors</p>
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li>• Fundraising</li>
             <li>• Due Diligence</li>
