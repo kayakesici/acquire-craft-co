@@ -41,11 +41,11 @@ const DealAnalysisSection = () => (
           <ul className="space-y-2 text-sm leading-relaxed text-muted-foreground">
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent" />
-              Customer concentration — top 3 clients represent 55% of revenue
+              Customer concentration, top 3 clients represent 55% of revenue
             </li>
             <li className="flex items-start gap-2">
               <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-accent" />
-              Owner dependency — founder manages all key client relationships
+              Owner dependency, founder manages all key client relationships
             </li>
           </ul>
         </div>

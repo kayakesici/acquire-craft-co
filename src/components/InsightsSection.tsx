@@ -11,7 +11,7 @@ const articles = [
   },
   {
     title: "Common Deal Structures in UK SME Acquisitions",
-    summary: "Share purchases, asset deals, MBOs — and the commercial reasons behind each structure.",
+    summary: "Share purchases, asset deals, MBOs and the commercial reasons behind each structure.",
   },
 ];
 

@@ -12,7 +12,7 @@ const HeroSection = () => (
         We help business owners find and complete bolt-on acquisitions.
       </h1>
       <p className="mx-auto mb-5 max-w-[680px] text-sm leading-relaxed text-primary-foreground/60 md:text-base">
-        We work as your outsourced acquisition team — sourcing deals, running the numbers and managing the process through to successful completion.
+        We work as your outsourced acquisition team, sourcing deals, running the numbers and managing the process through to successful completion.
       </p>
       <p className="mx-auto mb-10 max-w-[680px] text-xs font-medium uppercase tracking-widest text-primary-foreground/40">
         For owner-operators and investors actively acquiring UK businesses.
