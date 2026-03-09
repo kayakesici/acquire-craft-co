@@ -22,14 +22,15 @@ const ContactSection = () => (
       </Button>
 
       {/* Calendly Embed */}
-      <div className="mx-auto max-w-lg overflow-hidden rounded border border-primary-foreground/20">
+      <div className="mx-auto max-w-[780px] overflow-hidden rounded-lg border border-primary-foreground/10 bg-background p-2 shadow-lg">
         <iframe
-          src={`${CALENDLY_URL}?hide_gdpr_banner=1`}
+          src={`${CALENDLY_URL}?hide_gdpr_banner=1&background_color=ffffff`}
           width="100%"
-          height="700"
+          height="780"
           frameBorder="0"
+          scrolling="no"
           title="Schedule a call with The Acquisition Team"
-          className="bg-primary-foreground/5"
+          className="rounded"
         />
       </div>
 
